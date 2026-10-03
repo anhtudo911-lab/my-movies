@@ -10,6 +10,8 @@ header {
 nav {
     display: inline-block;
     width: 80%;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 nav img {
@@ -19,10 +21,12 @@ nav img {
 main {
     background-color: white;
     font-size: 18px;
+    padding: 20px;
 }
 
 footer {
-    background-color: lightgray;
+    background-color: lightblue;
+    padding: 10px;
 }
 
 /*
@@ -59,8 +63,3 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-img {
-            width: 300px;
-            height: 400px;
-            object-fit: cover;
-        }
